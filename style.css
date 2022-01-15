@@ -177,5 +177,108 @@ hr{
     margin-right: 30px;
 }
 @media only screen and (max-width:688px){
-    
+    .nav-section{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-area{
+        display: block;
+    }
+    .first-title{
+        text-align: center;
+    }
+    .nav-anchor{
+        width: 100%;
+        display: inline;
+    }
+    .anchor{
+        margin: 0 10px;
+    }
+    .influncer-section{
+        width: 100%;
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+    .influncer-heading h1{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .influncer-heading p{
+        width: 100%;
+    }
+    .title-camera img{
+        width: 100%;
+        margin: 0;
+    }
+    .logo-section{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: repeat(2,1fr);
+        grid-row-gap: 10px;
+        height: 170px;
+        margin-top: 20px;
+    }
+    .logo{
+        margin: 0;
+    }
+    hr{
+        margin: 0;
+    }
+    .popular-photos{
+        width: 100%;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(9,1fr);
+        margin: 0;
+        margin-top: 20px;
+    }
+    .photo-article{
+        width: 100%;
+        padding: 0;
+        padding-top: 27px;
+        text-align: center;
+    }
+    .see-more-section{
+        margin-right: 0;
+    }
+    .next-product{
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+    .car-picture img{
+        width: 100%;
+    }
+    .product-heading{
+        text-align: center;
+    }
+    .product-heading h1{
+        width: 100%;
+    }
+    .footer-section{
+        margin-top: 50px;
+    }
+    .footer-container{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .footer-title h2{
+        padding: 0;
+    }
+    #credit{
+        padding: 0;
+    }
+    .social-media{
+        padding-left: 130px;
+        align-items: center;
+    }
+    .media{
+        margin: 0;
+        margin-right: 4px;
+    }
 }
