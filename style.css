@@ -32,9 +32,6 @@ body{
     display: flex;
     align-items: center;
 }
-.influncer-heading{
-    /* margin-right: 30px; */
-}
 .influncer-heading h1{
     width: 582px;
     height: 133px;
