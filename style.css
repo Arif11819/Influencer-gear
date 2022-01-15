@@ -3,6 +3,7 @@ body{
     font-family: 'Poppins';
     background-color: #fcf9f9;
     font-weight: 700;
+    color: #3A3A3A;
 }
 .nav-section{
     margin: 87px 120px;
@@ -46,7 +47,7 @@ body{
     font-size: 16px;
     font-weight: 510;
 }
-#preebook-anchor{
+.special-anchor{
     width: 196px;
     height: 44px;
     border-radius: 41px;
@@ -69,13 +70,99 @@ hr{
 .logo-section{
     display: flex;
     justify-content: center;
-    /* align-items: center;
-    grid-template-columns: repeat(7,1fr);
-    grid-column-gap: 10px; */
     width: 986px;
     height: 40px;
     margin: 37px 0px 37px 300px;
 }
 .logo{
     margin-right: 70px;
+}
+.photo-collection h1{
+    text-align: center;
+    font-size: 28px;
+}
+.popular-photos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    margin: 50px 20px 50px 180px;
+    width: 1050px;
+}
+.photo-article{
+    width: 329px;
+    height: 500px;
+    background-color:  #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding-left: 27px;
+    padding-top: 27px;
+}
+.fa-star{
+    color: tomato;
+}
+.see-more-section{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 175px;
+}
+.see-more-section p{
+    color: tomato;
+}
+.next-product{
+    display: flex;
+    margin: 87px 120px;
+}
+.car-picture img{
+    width: 77%;
+    border-radius: 5px;
+}
+.product-heading h1{
+    font-size: 48px;
+    width: 650px;
+}
+#product-color{
+    color: tomato;
+}
+#letter-style{
+    font-size: 50px;
+    color: tomato;
+}
+.car-picture:hover img{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
+.footer-section{
+    height: 270px;
+    background-color:  #181258;
+}
+.footer-container{
+    display: block;
+    align-items: center;
+    width: 462px;
+    height: 139px;
+    margin-left: 650px;
+    padding-top: 30px;
+}
+.footer-title{
+    color: white;
+}
+.footer-title h2{
+    padding-left: 40px;
+    font-size: 24px;
+}
+.footer-title p{
+  color: #d0d5e4;
+}
+#credit{
+    padding-left: 65px;
+}
+.social-media{
+    display: flex;
+    color: white;
+    font-size: 30px;
+    padding-left: 46px;
+}
+.media{
+    margin-right: 30px;
 }
